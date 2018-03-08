@@ -1,0 +1,6 @@
+[Unit]
+Description=gpu test
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/gpu_fps_test.run
